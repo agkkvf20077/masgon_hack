@@ -1,0 +1,178 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+
+  background-color: #000000;
+  display: flex;
+  flex-direction: column; /* ترتيب العناصر عمودياً */
+  width: 300px; /* عرض الحاوية */
+  margin: 20px auto; /* مركزية الحاوية في الصفحة */
+  
+}
+
+
+  
+
+
+
+
+  #k {
+
+color: #2b00ff;
+
+
+
+  
+}
+
+
+#cv {
+    width: 50px; /* تأكد من أن العرض والارتفاع متساويان */
+    height: 50px;
+    border-radius: 50%; /* يجعل الصورة دائرية */
+    object-fit: cover; /* يتأكد من أن الصورة تملأ العنصر بشكل جيد */
+}
+
+
+#sj{
+  width: 300px; /* عرض الحقل */
+  height: 40px; /* ارتفاع الحقل */
+  padding: 10px; /* تباعد داخلي */
+  border: 1px solid #ccc; /* إطار الحقل */
+  border-radius: 5px; /* حواف دائرية */
+  font-size: 16px; /* حجم الخط */
+  margin: 10px;
+  font-size: 23px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#bot {
+  background-color: #4CAF50; /* لون أخضر */
+  border: none;
+  color: white;
+  padding: 15px 32px; /* تباعد داخلي */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* حواف دائرية */
+  transition: background-color 0.3s, transform 0.3s; /* تأثيرات التحويل */
+}
+
+#bot:hover {
+  background-color: #45a049; /* لون أخضر أفتح عند المرور */
+  transform: scale(1.05); /* تكبير طفيف عند المرور */
+}
+
+
+
+
+
+#numberDisplay {
+
+color:red;
+font-size:30px;
+margin:50px;
+
+
+  
+}
+
+
+
+#generate-button {
+
+  background-color: #4CAF50; /* لون أخضر */
+  border: none;
+  color: white;
+  padding: 15px 32px; /* تباعد داخلي */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* حواف دائرية */
+  transition: background-color 0.3s, transform 0.3s; /* تأثيرات التحويل */
+  
+  
+}
+
+
+
+#vb {
+
+border: solid;
+  border-color:#e5e1e1;
+  border-radius: 10px;
+
+
+
+
+
+  
+}
+
+
+
+
+
+#add {
+
+  background-color: #319634; /* لون أخضر */
+  border: none;
+  color: white;
+  padding: 15px 32px; /* تباعد داخلي */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* حواف دائرية */
+  transition: background-color 0.3s, transform 0.3s; /* تأثيرات التحويل */
+
+
+
+
+
+
+  
+}
+
+
+
+#add:hover {
+  background-color: #45a049; /* لون أخضر أفتح عند المرور */
+  transform: scale(1.05); /* تكبير طفيف عند المرور */
+}
+
+
+
+#ert {
+
+background-color: #474747;
+
+
+
+
+
+  
+}
